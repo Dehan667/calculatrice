@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,16 +9,36 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='./main.js' defer></script>
 </head>
+
 <body>
-    <h1> Calculatrice </h1>
+    <h1> Calculatrice : </h1>
 
-<div class="case"> Valeur 1 :
-    <imput class="valeur1">
-</div>
+    <hr>
 
-<div class="case"> Valeur 2 :
-<imput class="valeur2"> </imput>
-</div>
+    <div class="mario"> Valeur 1 :
+        <input type="number" id="valeur1" class="valeur1">
+    </div>
+
+    <div class="mario"> Valeur 2 : 
+        <input type="number" id="valeur2" class="valeur2">
+    </div>
+
+    <div class="mario">
+
+        <button id="add"> + </button>
+        <button id="sus"> - </button>
+        <button id="mul"> * </button>
+        <button id="div"> / </button>
+
+    </div>
+
+    <div class="mario">
+        <fieldset>
+            <legend> Résultat </legend>
+            <input class="resultat" id="resultat">
+        </fieldset>
+    </div>
 
 </body>
+
 </html>
